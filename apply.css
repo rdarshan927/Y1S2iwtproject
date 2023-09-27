@@ -1,0 +1,103 @@
+.apply-content{
+    margin-top: 4%;
+    display: flex;
+    background-color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.apply{
+    width: 50%;
+    background-color: gray;
+    margin: 0.5% 0 0.5% 2%;
+    border-radius: 10px;
+}
+
+.apply-head{
+    margin: 1% 0;
+    text-align: center;
+}
+
+.apply-in{
+    margin: 1%;
+}
+
+.apply-body{
+    text-align: left;
+    margin: 2% 5%;
+}
+
+input, select{
+    margin: 0.5% 0 2% 0%;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input-text{
+    width: 80%;
+    font-size: inherit;
+    padding: 0.5% 0;
+    font-weight: bold;
+}
+
+.input-text:focus{
+    width: 100%;
+    transition: 1s;
+    border-color: cornflowerblue;
+    text-decoration: underline;
+    text-underline-position: below;
+    font-weight: normal;
+}
+
+.input-text:hover{
+    border-color: cornflowerblue;
+}
+
+.input-degree{
+    font-size: large;
+    background-color: darkgrey;
+    width: 50%;
+    text-indent: 1%;
+    padding: 0.5% 0;
+}
+
+.input-degree:hover{
+    border-color: cornflowerblue;
+}
+
+.apply-btn{
+    align-items: center;
+}
+
+.apply-right{
+    margin: 0.5%;
+}
+
+.apply-right-in{
+    text-align: center;
+}
+
+.apply-right-in-top{
+    background-color: darkslategrey;
+    margin: 0 0 0.5% 0;
+    border-radius: 10px;
+}
+
+.apply-right-in-center{
+    background-color: darkslategray;
+    margin: 0.5% 0;
+    border-radius: 10px;
+}
+
+.apply-right-in-end{
+    background-color: darkslategrey;
+    margin: 0.5% 0;
+    border-radius: 10px;
+}

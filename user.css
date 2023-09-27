@@ -1,0 +1,162 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.user-all {
+    margin-top: 4%;
+    display: flex;
+    margin-bottom: 15%;
+    grid-template-columns: 1fr 1fr; /*last edit*/
+}
+
+.user-left {
+    width: 20%;
+    background-color: #4267B2;
+    margin: 0.5%;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 72vh;
+}
+
+.user-left-nav {
+    /* padding: 4% 5%; */
+    border-radius: 10px;
+}
+
+.user-left-nav li {
+    padding: 3%;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+
+.user-left-nav li a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+.user-left-nav li:hover {
+    background-color: #fff;
+    color: #4267B2;
+    border-radius: 10px;
+    border: 1px solid #4267B2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    .left-nav {
+        color: purple;
+    }
+}
+
+.user-name {
+    display: flex;
+}
+
+.user-name-in img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2% 0 0 2%;
+    border: 2px solid purple;
+}
+
+.user-name-in {
+    display: flex;
+    width: 80%;
+    height: 20vh;
+}
+
+.user-name-in h3 {
+    margin: 4% 0 1% 0;
+}
+
+.user-name-in p {
+    margin: 0 0 1% 0;
+}
+
+
+.user-name-in-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2%;
+}
+
+.user-edit-pic button {
+    padding: 0.5% 2%;
+    background-color: rgb(73, 194, 73);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.user-resource {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    width: 15%;
+}
+
+.user-resource button {
+    margin: 0.5%;
+    padding: 3% 10%;
+    font-weight: 600;
+    background-color: green;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.user-about, .user-left {
+    align-self: stretch;
+}
+
+.user-detail {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 1% 0 1% 1%;
+    padding: 1% 2%;
+    height: max-content;
+    border: 1px solid black;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.user-detail-left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    
+}
+
+.user-detail-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.user-detail-left .user-detail-up, .user-detail-right .user-detail-up {
+    margin: 1%;
+    font-size: 22px;
+    font-weight: 700;
+    /* padding: ; */
+}
+
+.user-detail-left .user-detail-down, .user-detail-right .user-detail-down {
+    margin: 0 0 10% 0;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 1% 2%;
+    /* padding: ; */
+}
+
+.user-detail-left button {
+    padding: 2% 5%;
+    width: 40%;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 10% 0;
+}
