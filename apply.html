@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="apply.css">
     <link rel="stylesheet" href="footer.css">
+    <!-- <script src="apply.js"></script> -->
     
 </head>
-<body>
+<body id="body-sec">
     <nav class="header">
         <span class="logo-top">Online Teacher Trainer</span>
         <ul class="navigation">
@@ -25,78 +26,124 @@
         <div class="rightside-container">
             <!-- <input type="text" class="search-box" placeholder="Search"> -->
             <!-- <button class="subscribe-button">GUEST</button> -->
-            <a href="#" class="account-top">GUEST</a>
+            <a href="useraccount.html" class="account-top">GUEST</a>
             <a href="#" class="account-top2">logout</a>
         </div>
     </nav> 
 
-    <div class="apply-content">
-        <div class="apply">
-            <div class="apply-in">
-                <h2 class="apply-head">Apply To Teach</h2>
-                <div class="apply-body">
-                    <form action="">
-                        <label for="applicant-name"> Applicant Name</label><br>
-                        <input type="text" id="applicant-name" name="applicant-name" class="input-text" placeholder="Enter the Full Name"/><br>
+        <section class="section-apply" id="section1">
+            <div class="apply">
+                <div class="apply-in">
+                    <h1 class="apply-head">Apply To Teach</h1>
+                    <div class="apply-body">
+                        <form action="">
+                            <label for="applicant-name"> Applicant Name</label><br>
+                            <input type="text" id="applicant-name" name="applicant-name" class="input-text" placeholder="Enter the Full Name" required/><br>
 
-                        <label for="applicant-email">Applicant Email</label><br>
-                        <input type="email" id="applicant-email" name="applicant-email" class="input-text" placeholder="Enter the Email address"/><br>
+                            <label for="applicant-email">Applicant Email</label><br>
+                            <input type="email" id="applicant-email" name="applicant-email" class="input-text" placeholder="Enter the Email address" required/><br>
 
-                        <label for="applicant-mob">Applicant Mobile Number</label><br>
-                        <input type="phone" id="applicant-mob" name="applicant-mob" class="input-text" placeholder="Enter the Mobile Number"/><br>
+                            <label for="applicant-mob">Applicant Mobile Number</label><br>
+                            <input type="phone" id="applicant-mob" name="applicant-mob" class="input-text" placeholder="Enter the Mobile Number" required/><br>
 
-                        <label for="applicant-p">Current Position</label><br>
-                        <input type="text" id="applicant-p" name="applicant-p" class="input-text" placeholder="Enter the cuurent job you are enrolled in"/><br>
+                            <label for="applicant-p">Current Position</label><br>
+                            <input type="text" id="applicant-p" name="applicant-p" class="input-text" placeholder="Enter the current job you are enrolled in" required/><br>
 
-                        <label for="applicant-degree">Degree</label><br>
-                        <select name="applicant-degree" id="applicant-degree" class="input-degree">
-                            <option value="IT">Information Technology</option>
-                            <option value="CS">Computer Science</option>
-                            <option value="DS">Data Science</option>
-                            <option value="SE">Software Engineering</option>
-                            <option value="CYSE">Cyber Security</option>
-                        </select><br>
+                            <label for="applicant-degree">Degree</label><br>
+                            <select name="applicant-degree" id="applicant-degree" class="input-degree">
+                                <option value="IT">Information Technology</option>
+                                <option value="CS">Computer Science</option>
+                                <option value="DS">Data Science</option>
+                                <option value="SE">Software Engineering</option>
+                                <option value="CYSE">Cyber Security</option>
+                            </select><br>
 
-                        <label for="applicant-g">Gender</label><br>
-                        <span>Male</span>
-                        <input type="radio" id="applicant-g" name="applicant-g" value="male">
+                            <label for="applicant-g">Gender</label><br>
+                            <span>Male</span>
+                            <input type="radio" id="applicant-g" name="applicant-g" value="male">
 
-                        <span>Female</span>
-                        <input type="radio" id="applicant-g" name="applicant-g" value="female"><br>
-                        
-                        <label for="applicant-applied">Applied for</label><br>
-                        <select name="applicant-applied" id="applicant-applied" class="input-degree">
-                            <option value="instructor">Instructor</option>
-                            <option value="supervisor">Supervisor</option>
-                        </select><br>
+                            <span>Female</span>
+                            <input type="radio" id="applicant-g" name="applicant-g" value="female"><br>
+                            
+                            <label for="applicant-applied">Applied for</label><br>
+                            <select name="applicant-applied" id="applicant-applied" class="input-degree">
+                                <option value="instructor">Instructor</option>
+                                <option value="supervisor">Supervisor</option>
+                            </select><br>
 
-                        <label for="applicant-prefer">Prefer</label><br> 
-                        <select name="applicant-applied" id="applicant-applied" class="input-degree">
-                            <option value="fulltime">Full-time</option>
-                            <option value="parttime">Part-time</option>
-                        </select><br>
-
-                        <button type="submit" class="apply-btn">Apply</button>
-                    </form>
+                            <label for="applicant-prefer">Prefer</label><br> 
+                            <select name="applicant-applied" id="applicant-applied" class="input-degree">
+                                <option value="fulltime">Full-time</option>
+                                <option value="parttime">Part-time</option>
+                            </select><br>
+                            <div class="apply-btn-div">
+                                <button type="submit" class="apply-btn">Apply</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="apply-right">
-            <div class="apply-right-in">
-                <div class="apply-right-in-top">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur minus odio quas iure sapiente ducimus repellat nam eligendi esse sunt libero mollitia, magnam deleniti. Nam enim labore consequatur non nisi.</p>
+            <div class="apply-right">
+                <div class="apply-right-in">
+                    <div class="apply-right-in-end">
+                        <h2>VIEW RECENT NOTICES Regarding application process!</h2>
+                        <a href="#section2"><button>Click here</button></a>
+                    </div>
+                    <div class="apply-right-in-top">
+                        <h2><span id="greeting"> </span>Welcome to our Online Instructor and Supervisor Application Platform!</h2>
+                        <p>We're thrilled that you're considering joining our team of dedicated educators and leaders. Your passion and expertise are what make our community thrive, and we can't wait to learn more about you.</p>
+                    </div>
+                    <div class="apply-right-in-center">
+                        <h2>Conditions</h2>
+                        <img src="apply/navigate.png" alt="" name="navigate2" id="navigate2" onclick="conditionNav('navigate2')" class="navigate2">
+                        <img src="apply/navigate.png" alt="" name="navigate1" id="navigate1" onclick="conditionNav('navigate1')" class="navigate1">
+                        <h3 id="conH3">Education & Qualification</h3>
+                        <ul>
+                            <li id="conLi1">Hello World!</li>
+                            <li id="conLi2">Hello World!</li>
+                        </ul>
+                        <h3 id="con2H3">Education & Qualification</h3>
+                        <ul>
+                            <li id="conLi21">Hello World!</li>
+                            <li id="conLi22">Hello World!</li>
+                        </ul>
+                    </div>
+
+                    
+                    
+                <!-- <img src="sliit.jpg" alt=""> -->
                 </div>
-                <div class="apply-right-in-center">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente ratione autem voluptatum veritatis rem aut omnis dolor facere, odio magnam doloremque fuga, nisi quisquam, nesciunt natus eos. Iure, maxime?</p>
+            </div>
+
+            <div class="right-images">
+                <div class="apply-right-img">
+                    <img src="apply/image2.jpg" alt="">
                 </div>
-                <div class="apply-right-in-end">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, harum voluptates consequuntur voluptatem recusandae consectetur iusto deleniti culpa dignissimos nemo dolorum consequatur suscipit! Dolorem voluptatem adipisci ducimus, tempora inventore soluta.</p>
-                </div>
-            <img src="sliit.jpg" alt="">
+                <!-- <div class="apply-right-img">
+                    <img src="sliit.jpg" alt="">
+                </div> -->
+            </div>
+            
+        </section>
+
+    <section class="section-apply" id="section2">
+        <div class="apply-notices">
+            <h2>Notices</h2>
+            <p>Hello World!</p>
+        </div>
+        <div class="section-apply-right">
+            <div class="apply-go-top">
+                <h1>Apply Now!</h1>
+                <a href="#section1"><button>Click here</button></a>
+            </div>
+            <div class="apply-go-top-down">
+                <img src="apply/image3.jpeg" alt="">
             </div>
         </div>
-    </div>
+        
+        
+    </section>
 
     <footer>
         <div class="footer-top-div">
@@ -127,10 +174,10 @@
             <div class="footer-inner-div">
                 <h4 class="footer-inner-h4">Payment Methods</h4>
 
-                    <a href="#"><img src="paypal.png" alt="payment" class="footer-inner-img"></a>
-                    <a href="#"><img src="visa.webp" alt="payment" class="footer-inner-img"></a>
-                    <a href="#"><img src="ipay.jpg" alt="payment" class="footer-inner-img"></a>
-                    <a href="#"><img src="master.jpg" alt="payment" class="footer-inner-img"></a>
+                    <a href="#"><img src="pay/paypal.png" alt="payment" class="footer-inner-img"></a>
+                    <a href="#"><img src="pay/visa.webp" alt="payment" class="footer-inner-img"></a>
+                    <a href="#"><img src="pay/ipay.jpg" alt="payment" class="footer-inner-img"></a>
+                    <a href="#"><img src="pay/master.jpg" alt="payment" class="footer-inner-img"></a>
                 
             </div>
             <div class="footer-inner-div">

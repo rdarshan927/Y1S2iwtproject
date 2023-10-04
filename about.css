@@ -1,0 +1,75 @@
+
+.content2 {
+    display: flex;
+}
+
+.box1{
+    bottom:30;
+    top:10;
+    margin-bottom: 0.2%;
+    margin-left: 3%;
+    background-color:rgb(174, 206, 245);
+    padding-bottom: 0.5%;
+    width:50%;
+    height:80%;
+
+}
+
+
+.leftside{
+    margin-top:5% ;
+    width: 12;
+    border-radius: 20%;
+    
+}
+
+.form-tools{
+    margin-left: 4%;
+}
+
+.about{
+    margin-left: 40% ;
+}
+
+.rightside{
+    
+    margin-left: 5%;
+    width: 40%;
+  
+ 
+}
+
+.right {
+    display: flex;
+}
+
+
+.socialmedia {
+   /* display: flex;*/
+    flex-direction: column;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* white-space: nowrap; */
+}
+
+
+
+.social {
+    /* color: #fff; */
+    font-weight: bolder;
+}
+
+
+/* .socialmedia {
+    display: inline-block;
+} */
+
+.socialmedia-in {
+    display: flex;
+}
+
+.socialmedia-in-img {
+    height: 50px;
+    width: 50px;
+    padding: 5%;
+}

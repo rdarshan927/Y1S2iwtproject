@@ -49,6 +49,7 @@ body{
     list-style: none;
     position: relative;
     white-space: nowrap;
+    font-family: 'Nunito', sans-serif;
 }
 
 .nav-top {
