@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    height: 8vh;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background-color: rgb(65, 7, 7);
+    border-radius: 0 0 8px 8px;
+    border-bottom: 8px;
+    z-index: 0;
+    overflow: hidden;
+    color: #fff;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo-top {
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: x-large;
+    white-space: nowrap;
+}
+
+.navigation {
+    display: flex;
+    margin: 0 10%;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-top {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+    justify-content: space-between;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.nav-top:hover {
+    background-color: rgb(255, 255, 255);
+    color: #4267B2;
+    border-radius: 50px;
+    .nav-top-a {
+        color: purple;
+    }
+}
+
+.nav-top-a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.rightside-container {
+    margin-left: 0;
+}
+
+.count {
+    background-color: red;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: small;
+
+}
+
+#apply {
+    display: flex;
+}
+
+.account-top {
+    text-decoration: none;
+    opacity: 0.9;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 13px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.account-top2 {
+    text-decoration: none;
+    opacity: 0.9;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 13px;
+    border: none;
+    outline: none;
+}
+
+.account-top-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.nav-top-a[aria-current="page"], .account-top[aria-current="page"] {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 5px;
+    background-color: #fff;
+    color: purple;
+    border-radius: 50px;
+}

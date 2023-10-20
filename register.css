@@ -1,0 +1,122 @@
+.content {
+    display: flex;
+    
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.box-form {
+    bottom:30;
+    top:10;
+    margin-bottom: 0.2%;
+    margin-left: 3%;
+    background-image: url('RegisterImages/bg2.jpg');
+    background-size: cover;
+    color:white;
+    padding-bottom: 0.4%;
+    width:43%;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.button{
+    background-color:rgb(213, 235, 53);
+    border-style: solid;
+    font-style: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    color:black;
+    border:none;
+    height:36px;
+    width: 74px;
+    cursor: pointer;
+    margin-left: 40% ;
+    margin-bottom: 10px;
+       
+}
+
+.button:hover{
+        background-color: white;
+        color:black;
+
+        transition:background-color 0.15s,
+        color 0.15s;
+}
+
+.section1{
+    margin-top:7% ;
+    margin-bottom: 5%;
+    width: 12;
+    border-radius: 20%;
+    
+}
+
+.form-group{
+    margin-left: 4%;
+}
+
+.register{
+    /* margin-left: 40% ; */
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.section2{
+    
+    margin-left: 5%;
+    width: 50%;
+    
+ 
+}
+
+
+.section2image{
+    width:30%;
+    height:30%;
+    margin-top: 10%;
+
+}
+.topic{
+    color:rgb(252, 246, 246);
+}
+
+.description{
+    font-family:bebas neue;
+    font-style:bold;
+    color:white;
+    width: 800px;
+    font-size: 20px;
+    
+}
+
+.font{
+    font-size: 15px;
+    width:50%;
+    padding: 8px 0 8px 8px;
+}
+
+label{
+    font-size: 20px;
+
+}
+
+.account{
+    margin-left: 33%; 
+    /* margin-top: 10px; */
+    color: azure;
+
+
+}
+
+.center{
+
+    text-align: left;
+    align-items: left;
+}

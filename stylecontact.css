@@ -1,0 +1,138 @@
+body{
+    /* min-width: 80%; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+}
+
+.conbox{
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.headcon{
+    padding: 10px 0px 0px 5px;
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+    
+}
+.imdg{
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.addr1{
+    float: right;
+}
+
+.para1{
+    color: aliceblue;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.para2{
+    color: aliceblue;
+    margin-left: 10px;
+  
+}
+
+
+.loca1{
+    background-color:silver;
+    padding: 5px;
+    margin-top: 30px;
+    margin-right: 750px;
+    border-radius: 10px;
+}
+.pi12{
+    color:black;
+}
+
+.loca2{
+    background-color:silver;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 270px;
+    text-align: center;
+}
+.loca2 .btn {
+    border: none; 
+    color: rgb(255, 255, 255); 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+  
+  .A {background-color: #6b6b6b;} 
+  .A:hover {background-color: #d6d6d6;}
+  .A:hover{color: black;}
+
+  
+.loca3{
+    background-color:silver;
+    border-radius: 10px;
+    margin-top: -125px;
+    margin-left: 525px;
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 270px;
+    text-align: center;
+}
+.loca3 .btn {
+    border: none; 
+    color: rgb(255, 255, 255);
+    padding: 14px 28px; 
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+  
+  .A {background-color: #6b6b6b;} 
+  .A:hover {background-color: #d6d6d6;}
+  .A:hover{color: black;}
+
+
+.loca4{
+    background-color:silver;
+    border-radius: 10px;
+    margin-top: -125px;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 270px;
+    text-align: center;
+}
+
+.loca4 .btn {
+    border: none; 
+    color: rgb(255, 255, 255);
+    padding: 14px 28px; 
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+  
+  .A {background-color: #6b6b6b;} 
+  .A:hover {background-color: #d6d6d6;}
+  .A:hover{color: black;}
+
+.h4{
+    color: black;
+    padding: 15px;
+}
+.map{
+   float: right;
+   margin-right: 100px;
+   margin-top: -300px;
+   
+}

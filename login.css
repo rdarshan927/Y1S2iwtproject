@@ -1,0 +1,94 @@
+ /* *{
+    margin: 0;
+    font-family: "poppins",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+} */
+body{
+    /* display: flex; */
+    /* margin-bottom: 50px; */
+    /* margin-left: 50px; */
+    /* margin-top: 50px; */
+    /* margin-right: 50px; */
+    height: 80vh;
+    width: 100vw;
+    background-image: url("bg.jpg");
+    /* border-radius: 10px; */
+   
+}
+.box{
+    height: 70vh;
+    width:420px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background-image: url('backy.jpg');
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.box h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid cornsilk;
+    border-radius: 40px;
+    font-size: 16px;
+    color: antiquewhite;
+    padding: 20px;
+
+}
+.input-box input::placeholder{
+    color: aliceblue;
+}
+.forgetpw{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.forgetpw.a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.buto{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(137, 137, 137);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.dont-acc{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.immg{
+    margin-left: 550px;
+    margin-top: -425px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    border: none;
+    outline: none;
+    
+}
