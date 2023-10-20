@@ -1,0 +1,190 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    
+    padding: 60px 20px 20px 60px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin-top: 10%;
+    
+    width: 90%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+
+.buttons{
+    display: flex;
+    width: 850px;
+    margin-top: 100px;
+
+}
+
+.buttons-in {
+    display: flex;
+    margin-left: 40%;
+    
+}
+
+.submit{
+    background-color:red;
+    border-style: solid;
+    font-style: bold;
+    border-radius: 8px;
+    color:black;
+    border:none;
+    height:36px;
+    width: 74px;
+    cursor: pointer;
+    
+}
+
+.submit:hover{
+        background-color: white;
+        color:black;
+
+        transition:background-color 0.15s,
+        color 0.15s;
+}
+
+.button{
+
+    background-color:rgb(138, 104, 104);
+    border-style: solid;
+    font-style: bold;
+    border-radius: 8px;
+    color:black;
+    border:none;
+    height:36px;
+    width: 74px;
+    cursor: pointer;
+   
+
+}
+
+.buttonsnew {
+    margin-left: 5px;
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+
+    transition:background-color 0.15s,
+    color 0.15s;
+}
+
+.form{
+    font-size: 25px;
+    
+}
+
+.form-group{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+label{
+    font-size:20px;
+}
+.font{
+    font-size: 15px;
+    width:70%;
+    height: 30%;
+    padding: 10px 0 8px 8px;
+}
+
+.sectionnew{
+    display: flex;
+    margin-top: 5%;
+}
+
+.new {
+    width: 50%;
+}
+
+.section2{ 
+    padding: 60px 20px 20px 60px;
+    background-image: url('FAQImages/bg7.jpg');
+    border-radius: 5px;
+    margin-top: 5%;
+    
+    width: 750px;
+    height: 600px;
+    margin-bottom: 10%;
+    margin-left: 70px;
+
+   
+}
+
+.fontsize{
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+
+.questions{
+    
+    font-size:20px ;
+    margin-top: 10px;
+}
+
+.faqr {
+    display: flex;
+}
+
+.username {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.deletebtn {
+    margin-left: 20px;
+    width: 75px;
+    padding: 2px;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+
+.deletebtn:hover {
+    background-color: rgb(216, 83, 83);
+    cursor: pointer;
+}
+
+.deletebtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.edit {
+    /* border: none; */
+    background: none;
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: rgb(255, 255, 255);
+}
+
+.sectionall {
+    padding: 60px 20px 20px 60px;
+    background-image: url('FAQImages/bg7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 5%;
+    
+    width: 750px;
+    height: 1155px;
+    margin-bottom: 10%;
+    margin-left: 70px;
+}

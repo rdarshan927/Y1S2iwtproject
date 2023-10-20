@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+#section1 {
+    height: 86vh;
+    padding: 8.5vh 5.5vh;
+}
+
+.sectionheading {
+    font-size: 30px;
+    font-weight: bolder;
+    margin:30px 0 10px 0;
+}
+
+.pending {
+    display: flex;
+    flex-direction: column ;
+}
+
+.grid-container {
+  width: 100%;
+  display: flex;
+  opacity: 0.8;
+}
+
+.grid-item {
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  width: 120px;
+  margin: 0.5px;
+  background-color: #FFFDD0;
+  color: black;
+  font-weight: 700;
+}
+
+.grid-item2 {
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  width: 250px;
+  margin: 0.5px;
+  background-color: #FFFDD0;
+  color: black;
+  font-weight: 700;
+}
+
+.grid-item-h {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 120px;
+    margin: 0.5px;
+    align-items: center;
+    background-color: #d7d49c;
+    font-weight: bolder;
+}
+
+.grid-item-h2 {
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+  margin: 0.5px;
+  background-color: #d7d49c;
+  font-weight: bolder;
+}
+
+
+#approve {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#approve:hover {
+    background-color: #4CAF50;
+}
+
+#remove {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#remove:hover {
+    background-color: #f44336;
+}
+
+.buttona {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
